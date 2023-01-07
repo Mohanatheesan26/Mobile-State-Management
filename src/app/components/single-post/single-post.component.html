@@ -1,0 +1,13 @@
+<div class="post-container">
+    <mat-card class="card-class">
+      <div *ngIf="post">
+        <mat-card-title>{{(post | async)?.title}}</mat-card-title>
+        <mat-card-subtitle>Post ID: {{(post | async)?.id}}</mat-card-subtitle>
+        <mat-card-subtitle>User ID: {{(post | async)?.userId}}</mat-card-subtitle>
+        <mat-card-content>
+          {{(post | async)?.body}}
+        </mat-card-content>
+      </div>
+    </mat-card>
+</div>
+  

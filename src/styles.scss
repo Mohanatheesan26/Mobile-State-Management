@@ -1,1 +1,69 @@
 /* You can add global styles to this file, and also import other style files */
+@import url("https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css");
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+
+.showicons {
+  background-image: url(https://i.imgur.com/Jy2Quw4.png);
+  background-position: 24px 24px;
+  background-repeat: no-repeat;
+  display: inline-block;
+  height: 14px;
+  line-height: 28px;
+  vertical-align: center;
+  width: 15px;
+  padding-right: 10px;
+}
+.showicons.rupee {
+  background-position: 0 -49px;
+}
+.showicons.hotjob {
+  background-position: 0 -297px;
+}
+.showicons.expicon {
+  background-position: 0 0px;
+}
+.showicons.location {
+  background-position: 0 -14px;
+}
+.showicons.favjob-false {
+  background-position: 0 -30px;
+}
+.showicons.favjob-true {
+  background-position: 0 -281px;
+}
+
+.bkimage {
+  position: relative;
+  background-image: url(https://i.imgur.com/QA7jOIs.jpg);
+  background-repeat: no-repeat;
+}
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+
+.mat-card {
+  background: #464899;
+}
+
+.mat-toolbar.mat-primary {
+  background: #464899;
+}
+
+.mat-flat-button, .mat-raised-button, .mat-fab, .mat-mini-fab {
+  background-color: #182044;
+}
+
+.mat-raised-button {
+  margin: auto;
+}
+
+.mat-flat-button.mat-primary, .mat-raised-button.mat-primary, .mat-fab.mat-primary, .mat-mini-fab.mat-primary {
+  background-color: #182044;
+}
+
+.mat-mdc-card {
+    margin: 25px;
+    background-color: #52499b !important;
+}
